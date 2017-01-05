@@ -8,6 +8,10 @@ html, body {
   color: #555;
 }
 
+.page-header a:hover {
+  text-decoration: none;
+}
+
 .list-wrapper {
   margin-left: 0;
   margin-right: 0;
@@ -18,6 +22,16 @@ html, body {
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
   background-color: #e7e7e7;
+}
+
+.nav-tabs > li > a.active,
+.nav-tabs > li > a.active:hover,
+.nav-tabs > li > a.active:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
 }
 
 .songs .rating {
@@ -34,6 +48,14 @@ html, body {
   display: inline-block;
   color: #555;
   line-height: 100px;
+}
+
+.band-info {
+  margin-top: 20px;
+}
+
+.band-description-header {
+  margin-bottom: 20px;
 }
 
 .band-link .pointer {
